@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: #CDCDCD;
+}
+.header{
+    width: auto;
+    height: 50px;
+    background-color: #323232;
+}
+.header .con{
+    width: 600px;
+    height: 50px;
+    margin: 0 auto;
+}
+.header h2{
+    width: 100px;
+    height: 50px;
+    /*background: #83c44e;*/
+    float: left;
+    line-height: 50px;
+    color: #ffffff;
+}
+.header .con input{
+    float: right;
+    width: 360px;
+    height: 26px;
+    border-radius: 5px;
+    margin-top: 12px;
+    outline: none;
+    text-indent: 1em;
+    /*缩进*/
+}
+.content{
+    width: 600px;
+    height: auto;
+    background: #CDCDCD;
+    margin: 0 auto;
+}
+.content h2{
+    height: 32px;
+    padding: 20px 0;
+    line-height: 32px;
+    background: #CDCDCD;
+}
+.content .num{
+    width: auto;
+    height: 20px;
+    background: #E6E6FA;
+    float: right;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+.content .conbox{
+    width: auto;
+    height: auto;
+}
+.content .conbox .box{
+    width: auto;
+    height: 32px;
+    border-left: 5px solid #629A9C;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.content .conbox .box input{
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin-top: 6px;
+    float: left;
+    margin-left: 10px;
+}
+.content .conbox .box p{
+    width: 500px;
+    height: 32px;
+    /*background-color: #9f9f9f;*/
+    float: left;
+    margin-left: 10px;
+    line-height: 32px;
+    overflow: hidden;
+}
+.content .conbox .box .del{
+    width: 24px;
+    height: 22px;
+    box-sizing: border-box;
+    border: 2px solid#CDCDCD;
+    float: right;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 10px;
+
+}
+.content .conbox .box .del::before{
+    content: "-";
+    width: 14px;
+    height: 12px;
+    background-color: #CDCDCD;
+    display: block;
+    margin: 3px 3px;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 12px;
+    font-weight: bold;
+}
+/*2*/
+.content .conbox1 .box{
+    width: auto;
+    height: 32px;
+    border-left: 5px solid#B3B3B3;
+    border-radius: 5px;
+    background-color: #E6E6E6;
+    margin-bottom: 10px;
+}
+.content .conbox1 .box input{
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin-top: 6px;
+    float: left;
+    margin-left: 10px;
+    background-color: #D5D5D5;
+}
+.content .conbox1 .box p{
+    width: 500px;
+    height: 32px;
+    /*background-color: #9f9f9f;*/
+    float: left;
+    margin-left: 10px;
+    line-height: 32px;
+    color: #676767;
+
+}
+.content .conbox1 .box .del{
+    width: 24px;
+    height: 22px;
+    box-sizing: border-box;
+    border: 2px solid#CDCDCD;
+    float: right;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 10px;
+
+}
+.content .conbox1 .box .del::before{
+    content: "-";
+    width: 14px;
+    height: 12px;
+    background-color: #CDCDCD;
+    display: block;
+    margin: 3px 3px;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 12px;
+    font-weight: bold;
+}
